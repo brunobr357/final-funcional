@@ -133,21 +133,21 @@ groupByCRA alunos =
 main :: IO ()
 main = do
     -- Questão 1
-  putStrLn "Testando menorDistancia:"
+  putStrLn "Teste menorDistancia:"
   print $ menorDistancia 10 [1, 3, 5, 7, 9] == (1, 9)
   print $ menorDistancia 8 [1, 2, 4, 6, 8] == (2, 6)
 
     -- Questão 2
-  putStrLn "\nTestando floorArray:"
+  putStrLn "\nTeste floorArray:"
   print $ floorArray 5 [1, 2, 4, 6, 8] == 4
   print $ floorArray 7 [1, 3, 5, 9] == 5 
 
-  putStrLn "\nTestando ceilArray:"
+  putStrLn "\nTeste ceilArray:"
   print $ ceilArray 5 [1, 2, 4, 6, 8] == 6
   print $ ceilArray 3 [1, 2, 3, 5] == 5 
 
     -- Questão 3
-  putStrLn "\nTestando adicionarPilha:"
+  putStrLn "\nTeste adicionarPilha:"
   print $ adicionarPilha 5 [1, 2, 3] == [5, 1, 2, 3]
   print $ adicionarPilha 9 [] == [9]
 
